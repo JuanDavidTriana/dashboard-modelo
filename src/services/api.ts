@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000'
+const API_BASE_URL = 'https://student-alcohol-consumption-api.onrender.com'
 
 export async function predictStudentGrade(features: number[]): Promise<{ predicted_grade: number }> {
     const response = await fetch(`${API_BASE_URL}/predict`, {
