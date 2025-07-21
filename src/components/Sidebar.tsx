@@ -28,29 +28,16 @@ const Sidebar: React.FC<SidebarProps> = () => {
         <li className="sidebar-nav-item active">
           <Link to="/dashboard">
             <FontAwesomeIcon icon={faChartPie} className="nav-icon" />
-            DASHBOARD
+            Dashboard
           </Link>
         </li>
         <li className="sidebar-nav-item">
-          <Link to="/user-profile">
-            <FontAwesomeIcon icon={faUser} className="nav-icon" />
-            USER PROFILE
-          </Link>
-        </li>
-        <li className="sidebar-nav-item">
-          <Link to="/table-list">
+          <Link to="/models">
             <FontAwesomeIcon icon={faList} className="nav-icon" />
-            TABLE LIST
+            Lista de Modelos
           </Link>
         </li>
         
-
-        <li className="sidebar-nav-item">
-          <Link to="/notifications">
-            <FontAwesomeIcon icon={faBell} className="nav-icon" />
-            SETINGS
-          </Link>
-        </li>
       </ul>
       {/* Puedes agregar un fondo dinámico aquí si lo deseas */}
       <div className="sidebar-background">
